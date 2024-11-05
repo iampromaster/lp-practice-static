@@ -7,3 +7,11 @@
 タスクの追加・進行・完了時は、プロジェクトの更新も忘れないようにしてください。
 
 https://github.com/users/iampromaster/projects/7
+
+# リリース手順
+
+プロジェクトディレクトリで以下のコマンドを実行してください
+
+```
+sh deploy.sh
+```
