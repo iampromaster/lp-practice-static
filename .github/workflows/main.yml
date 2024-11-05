@@ -26,3 +26,4 @@ jobs:
         chmod 400 ~/.ssh/id_rsa
         ssh-keyscan s322.xrea.com >> ~/.ssh/known_hosts
         rsync -av ./ tactacgo@s322.xrea.com:~/lp-practice-static
+        
