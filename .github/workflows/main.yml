@@ -20,7 +20,6 @@ jobs:
       env:
         SSH_KEY: ${{ secrets.SSH_KEY }}
       run: |
-        sleep 300
         mkdir -p ~/.ssh
         echo "${SSH_KEY}" > ~/.ssh/id_rsa
         chmod 400 ~/.ssh/id_rsa
